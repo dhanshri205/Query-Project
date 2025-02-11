@@ -1,0 +1,2 @@
+agent: ChatGPT  
+Details: The code creates a pretend table called book_info that combines information from different tables like books, reviews, borrowings, and waitlists. It gives details about each book, such as its ID, title, number of reviews, average rating, rating in 2023, and how often it's borrowed or waitlisted. 

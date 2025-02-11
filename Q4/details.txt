@@ -1,0 +1,2 @@
+agent: NA
+Details: Got book id, title, and author along with used the count function for book_id from borrowing and used max function for getting return date. Used left outer join for books and borrowings table where condition is book id on both tables have to be same and group by book id, title and author.

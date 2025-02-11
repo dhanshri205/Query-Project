@@ -1,0 +1,2 @@
+agent: NA
+Details: This SQL query retrieves information about the top 3 most borrowed books from the books table. It achieves this by first joining the borrowings and books tables, grouping the results by book_id, title, and pyear, and then using the RANK() window function to assign a rank to each book based on the count of borrowings, ordered in descending order. Finally, it selects the book_id, title, and pyear columns for those books that have a rank less than or equal to 3, effectively identifying the top 3 most borrowed books.

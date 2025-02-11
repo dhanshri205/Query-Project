@@ -1,0 +1,2 @@
+agent: ChatGPT
+Details: This SQL query retrieves distinct email addresses of members who meet certain conditions. It selects emails of members who have borrowed books with a rating higher than 3.5 and a request count greater than the average request count across all books. Additionally, it ensures that members haven't borrowed any books with a rating of 3.5 or lower by checking for non-existence of such borrowings through a subquery. The query employs joins between the borrowings, members, and book_info tables to gather the necessary information for filtering and comparison.

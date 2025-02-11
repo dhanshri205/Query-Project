@@ -1,0 +1,2 @@
+agent: NA
+Details: Used SQL date() function, julianday(B) - julianday(A), to get the difference between return date and borrowed date to see if it greater than 14. Used nested structure "NOT IN" to see if any of the borrowed books are not in waitlisting and their priority is greater than or equal to 5.

@@ -1,0 +1,2 @@
+agent: NA
+Details: Select book_id, title and get average of rating from table called "books". Join with the condition that book id in reviews and books are then same. Group by book name and id and make sure there are atleast 2 or more rating usinf the count function. Order the average is descending order and limit it to the top three books.

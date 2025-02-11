@@ -1,0 +1,2 @@
+agent: NA
+Details: Got book id and title and used count function to get borrowings id without repitition. Used left join to join book and borrowings table and joined waitlists and books. Madde sure the book was puslished before 2015, group by id and title and made sure the book has been borrowed at least once and have been borrowed at least twice of how many times it had been waitlisted. 

@@ -1,0 +1,2 @@
+agent: NA
+Details: Got bid, member and end date from borrowings table. Called books and member table too. Made sure the email from borrowing and books matched and that the member was in CS faculty. Checked if book id and borrowing book id were the same (same book) and made sure the author was either Marry or John.
